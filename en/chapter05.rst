@@ -108,7 +108,7 @@ pattern, "Model" refers to the data access layer, "View" refers to the part of
 the system that selects what to display and how to display it, and
 "Controller" refers to the part of the system that decides which view to use,
 depending on user input, accessing the model as needed.
-
+m
 .. admonition:: Why the Acronym?
 
     The goal of explicitly defining patterns such as MVC is mostly to
@@ -521,7 +521,7 @@ many authors, but the ``Book`` database table doesn't get an ``authors``
 column. Rather, Django creates an additional table -- a many-to-many "join
 table" -- that handles the mapping of books to authors.
 
-For a full list of field types and model syntax options, see Appendix B.
+For a full list of field types and model syntax options, see Appendix A.
 
 Finally, note we haven't explicitly defined a primary key in any of these
 models. Unless you instruct it otherwise, Django automatically gives every
